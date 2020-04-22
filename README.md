@@ -1,4 +1,5 @@
 # Shopping Cart With Redux
+![](https://github.com/FilipeHub/MyAirCnC/blob/master/screenshots/img01.png)
 This project is a Shopping Cart Example done with Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
