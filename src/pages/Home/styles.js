@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {darken} from 'polished';
 
 export const ProductList = styled.ul`
     display: grid;
@@ -33,7 +34,7 @@ export const ProductList = styled.ul`
 
         button {
             font-size: 16px;
-            background: #0FA;
+            background: #7159c1;
             color: #FFF;
             border-radius: 4px;
             overflow: hidden;
@@ -41,6 +42,12 @@ export const ProductList = styled.ul`
 
             display: flex;
             align-items: center;
+
+            transition: background 0.2s;
+
+            &:hover{
+                background: ${darken(0.1, '#7159c1')};
+            }
 
             div {
                 display: flex;
